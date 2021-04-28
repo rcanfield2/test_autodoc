@@ -3,10 +3,11 @@ plotting
 ====================================
 Plotting module
 """
+import matplotlib.pyplot as plt
 
 def plot_line(x):
     """
-    This function prints a number of fish
+    This function plots x
     
     Parameters
     ----------
@@ -14,6 +15,8 @@ def plot_line(x):
         x [array]: Data
         
     Outputs:
-        
+    
+    Required packages:
+        implort matplotlib.pyplot as plt
     """
     plt.plot(x)
