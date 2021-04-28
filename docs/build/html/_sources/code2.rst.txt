@@ -1,4 +1,5 @@
 Code Package 2:
-======
+===============
 
-Another code pacakge
+.. automodule:: my_project.plotting
+    :members:

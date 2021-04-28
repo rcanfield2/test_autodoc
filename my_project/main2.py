@@ -1,10 +1,10 @@
 """
-Main
+Main Part 2
 ====================================
-The core module of my example project
+Repeated module of my example project
 """
 
-def practice_func_ryan(user_name):
+def practice_func_ryan2(user_name):
     """
     Return a statement from a person
 
@@ -12,14 +12,15 @@ def practice_func_ryan(user_name):
         user_name (str): Indicates the name of the person.
 
     Returns: 
-        - str: Message from input name,
-        - str: Name input
+        (tuple): tuple containing:
+            (str): Message from person
+            (str): Name of person
     """
     string_out = 'Hello Ryan, from' + user_name
     return string_out, user_name
 
 
-def practice_func_leo(number_of_fish):
+def practice_func_leo2(number_of_fish):
     """
     This function prints a number of fish
     
@@ -31,5 +32,3 @@ def practice_func_leo(number_of_fish):
     """
     
     return 'You have {} fish'.format(number_of_fish)
-
-
