@@ -12,7 +12,7 @@ def practice_func_ryan(user_name):
         user_name (str): Indicates the name of the person.
     
     Returns:
-        tuple: tuple containing:
+        tuple: tuple containing
             (str): Message from person
 
             (str): Name of person
