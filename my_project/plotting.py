@@ -10,15 +10,13 @@ def plot_line(x):
 
     import matplotlib.pyplot as plt
     
-    Parameters
-    ----------
-    Inputs:
-        x [array]: Data
+    Inputs
+    ------
+    x: [array] Data
         
 
-    Returns
+    Outputs 
     -------    
-    Outputs: 
 
         
     """
