@@ -8,11 +8,11 @@ def practice_func_ryan(user_name):
     """
     Return a statement from a person
 
-    Args
+    Args:
         user_name (str): Indicates the name of the person.
     
-    Returns
-        (tuple): tuple containing
+    Returns:
+        (tuple): tuple containing:
             (str): Message from person
 
             (str): Name of person
@@ -25,10 +25,10 @@ def practice_func_leo(number_of_fish):
     """
     This function prints a number of fish
     
-    Args
+    Args:
         number_of_fish [int]: How many fish you have
         
-    Returns
+    Returns:
         str: a statement of how many fish you have
     """
     
