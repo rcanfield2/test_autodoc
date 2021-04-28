@@ -12,10 +12,11 @@ def practice_func_ryan(user_name):
         user_name (str): Indicates the name of the person.
     
     Returns:
-        tuple: tuple containing
-            (str): Message from person
+        tuple: tuple containing:
+        
+        (str): Message from person
 
-            (str): Name of person
+        (str): Name of person
     """
     string_out = 'Hello Ryan, from' + user_name
     return string_out, user_name
