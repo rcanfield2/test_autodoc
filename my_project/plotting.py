@@ -7,15 +7,19 @@ Plotting module
 def plot_line(x):
     """
     This function plots x
+
+    import matplotlib.pyplot as plt
     
     Parameters
     ----------
     Inputs:
         x [array]: Data
         
-    Outputs:
-    
-    Required packages:
-        implort matplotlib.pyplot as plt
+
+    Returns
+    -------    
+    Outputs: 
+
+        
     """
     plt.plot(x)
