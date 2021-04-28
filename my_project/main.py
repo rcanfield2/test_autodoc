@@ -12,23 +12,22 @@ def practice_func_ryan(user_name):
         user_name (str): Indicates the name of the person.
 
     Returns: 
-        string_out (str): Message from input name
+        str: Message from input name,
+        str: Name input
     """
     string_out = 'Hello Ryan, from' + user_name
-    return string_out
+    return string_out, user_name
 
 
 def practice_func_leo(number_of_fish):
     """
     This function prints a number of fish
     
-    Parameters
-    ----------
-    Inputs:
+    Args:
         number_of_fish [int]: How many fish you have
         
-    Outputs:
-        statement [str]: a statement of how many fish you have
+    Returns:
+        str: a statement of how many fish you have
     """
     
     return 'You have {} fish'.format(number_of_fish)
