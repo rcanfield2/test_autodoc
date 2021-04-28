@@ -8,10 +8,11 @@ def practice_func_ryan(user_name):
     """
     Return a statement from a person
 
-    Parameters
-    ----------
-    user_name
-        A string indicating the name of the person.
+    Args:
+        user_name (str): Indicates the name of the person.
+
+    Returns: 
+        string_out (str): Message from input name
     """
     string_out = 'Hello Ryan, from' + user_name
     return string_out
