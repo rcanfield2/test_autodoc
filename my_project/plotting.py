@@ -10,14 +10,11 @@ def plot_line(x):
 
     import matplotlib.pyplot as plt
     
-    Inputs
-    ------
-    x: [array] Data
+    Args
+        x (array): Data
         
 
-    Outputs 
-    -------    
-
+    Returns: 
         
     """
     plt.plot(x)
