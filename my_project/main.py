@@ -2,6 +2,8 @@
 Main
 ====================================
 The core module of my example project
+
+import numpy as np
 """
 
 def practice_func_ryan(user_name):
